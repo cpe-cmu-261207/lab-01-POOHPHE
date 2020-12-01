@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            min-width: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <a href="home.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        
+    </div>
+
+    <div style="border: 2px solid black; padding-left: 10%; padding-right: 10%;">
+        <div style="padding-right:5%;">
+            <img src="https://miro.medium.com/max/11400/1*lS9ZqdEGZrRiTcL1JUgt9w.jpeg" height="125px" style="float: right;">
+            <h1>Pherawat Wongsawad</h1>
+            <h2>Student</h2>
+            <h3>heartrockbreak@gmail.com</h3>
+        </div>
+        
+        
+    </div>
+ <br><br>
+    <div style="border:2px solid black;padding-left: 10%; padding-right: 10%;">
+        <form action="/action_page.php">
+            <table>
+                <tr>
+                    <td>Name <font style="color: red;">*</font>:</td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td>Tab Text <font style="color: red;">*</font>:</td>
+                    <td><input type="text" name="tab-text" id="tab-text"></td>
+                </tr>
+                <tr>
+                    <td>URL <font style="color: red;">*</font>:</td>
+                    <td>http://wizehive.com/webform/<input type="text" name="tab-text" id="tab-text"></td>
+                </tr>
+                
+            </table>
+            <div style="background-color:#C6C6C6; color: #575757; font-weight: bold;">FORM SETUP</div>
+            <table>
+                
+                <tr>
+                    <td>Form:</td>
+                    <td>
+                        <select id="re_f" name="re_f" style="width: 100%;">
+                            <option value="de">Default</option>
+                            <option value="cs">Custom</option>
+                            <option value="blank" selected></option>
+                          </select>
+                    </td>
+                    <td>
+                        <input type="button" value="Edit">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Logo:</td>
+                    <td>
+                        no logo uploaded
+                        
+                    </td>
+                    <td>
+                        
+                        <input type="button" value="Upload Logo">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Template Text:</td>
+                    <td>
+                        
+                        <select id="lang" name="lang" style="width: 100%;">
+                            <option value="eng">English</option>
+                            <option value="th">Thai</option>
+                            
+                          </select>
+                    </td>
+                    <td>
+                        <input type="button" value="Edit">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Review Form:</td>
+                    <td>
+                        <select id="re_f" name="re_f" style="width: 100%;">
+                            <option value="de">Default</option>
+                            <option value="cs">Custom</option>
+                            
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Review score:</td>
+                    <td>
+                        <select id="lang" name="lang" style="width: 100%;" >
+                            <option value="rt">Rating</option>
+                            <option value="max">Max</option>
+                            
+                          </select>
+                    </td>
+                    <td>
+                        <input type="button" value="Reloads Field">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Scoring Type:</td>
+                    <td>
+                        <select id="lang" name="lang" style="width: 100%;">
+                            <option value="avg">Average</option>
+                            <option value="med">Median</option>
+                            
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Max Score:</td>
+                    <td><input type="number" name="tab-text" id="tab-text"></td>
+                </tr>
+            </table>
+        
+        
+        </form>
+    </div>
+
+</body>
+</html>
